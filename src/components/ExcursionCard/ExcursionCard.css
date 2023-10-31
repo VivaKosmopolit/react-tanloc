@@ -1,0 +1,66 @@
+.excursions-card {
+  width: 334px;
+  height: 476px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #DFDFDF;
+}
+.excursions-card__header-title {
+  margin: 0;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  color: #252525;
+}
+.excursions-card__cards-wrapper {
+  display: flex;
+  gap: 30px 35px;
+}
+.excursions-card__header {
+  position: relative;
+  min-height: 226px;
+  border-radius: 20px 20px 0 0;
+}
+.excursions-card__image {
+  width: 334px;
+  height: 226px;
+}
+.excursions-card__like-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+  border-radius: 100%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+.excursions-card__like-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.excursions-card__main-content {
+  padding: 20px 26px;
+}
+.excursions-card__title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #252525;
+}
+.excursions-card__text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #6A6A6A;
+}
+
+/*# sourceMappingURL=ExcursionCard.css.map */

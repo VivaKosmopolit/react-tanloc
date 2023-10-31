@@ -1,0 +1,95 @@
+.excursions-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 1450px;
+  margin: 0 auto;
+
+  &__header {
+    margin-bottom: 78px;
+  }
+
+  &__header-title {
+    margin: 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+    color: #252525;
+  }
+
+  &__cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 35px;
+    margin-bottom: 45px;
+  }
+
+  &__card {
+    width: 334px;
+    height: 476px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #DFDFDF;
+  }
+
+  &__card-header {
+    position: relative;
+    min-height: 226px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  &__card-image {
+    width: 334px;
+    height: 226px;
+  }
+
+  &__like-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255, .1);
+    border: 0;
+    border-radius: 100%;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(255,255,255, .4);
+    }
+  }
+
+  &__card-main-content {
+    padding: 20px 26px;
+  }
+
+  &__card-title {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #252525;
+  }
+
+  &__card-text {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6A6A6A;
+  }
+
+  &__button {
+    align-self: center;
+    width: 195px;
+    height: 55px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FFD600;
+  }
+}
