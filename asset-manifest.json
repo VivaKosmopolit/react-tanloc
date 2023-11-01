@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VivaKosmopolit/react-tanloc/static/css/main.71a462c5.css",
+    "main.js": "/VivaKosmopolit/react-tanloc/static/js/main.8b60eedd.js",
+    "static/js/787.13e485c7.chunk.js": "/VivaKosmopolit/react-tanloc/static/js/787.13e485c7.chunk.js",
+    "static/media/Montserrat-SemiBold.woff2": "/VivaKosmopolit/react-tanloc/static/media/Montserrat-SemiBold.d5fecbdc6bbcafd79a3c.woff2",
+    "index.html": "/VivaKosmopolit/react-tanloc/index.html",
+    "main.71a462c5.css.map": "/VivaKosmopolit/react-tanloc/static/css/main.71a462c5.css.map",
+    "main.8b60eedd.js.map": "/VivaKosmopolit/react-tanloc/static/js/main.8b60eedd.js.map",
+    "787.13e485c7.chunk.js.map": "/VivaKosmopolit/react-tanloc/static/js/787.13e485c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71a462c5.css",
+    "static/js/main.8b60eedd.js"
+  ]
+}
