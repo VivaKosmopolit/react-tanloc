@@ -13,11 +13,11 @@ function ExcursionsList() {
             <div className="excursions-list__cards-wrapper">
                 { db.cards.map((card, index) => (
                     <ExcursionCard
-                        key={index}
-                        imagePath={card.imagePath}
-                        title={card.title}
-                        description={card.description}
-                        price={card.price}
+                        key = { index }
+                        imagePath = { card.imagePath }
+                        title = { card.title }
+                        description = { card.description }
+                        price = { card.price }
                     />
                 ))}
             </div>
